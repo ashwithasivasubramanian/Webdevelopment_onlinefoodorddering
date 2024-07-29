@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://www.shutterstock.com/image-photo/salad-tomatoes-greens-dressing-oil-260nw-269131160.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.order-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Changed text color to a darker shade for better contrast */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #01090a; /* Changed label text color to match the theme */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5108b;
+  border-radius: 5px;
+}
+
+.text-danger {
+  color: red;
+  font-size: 0.875em;
+}
+
+.cart-summary {
+  margin-top: 20px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: rgb(190, 193, 200);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

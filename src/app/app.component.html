@@ -1,0 +1,41 @@
+<h1 align="center">UBER EATS!</h1>
+<nav class="navbar">
+  <div class="nav-links">
+    <a routerLink="login" routerLinkActive="active" class="nav-link">Login</a>
+    <a routerLink="menu" routerLinkActive="active" class="nav-link">Menu</a>
+    <a routerLink="cart" routerLinkActive="active" class="nav-link">Cart</a>
+    <a routerLink="order" routerLinkActive="active" class="nav-link">Order</a>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+<style>
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .nav-link.active {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+</style>
